@@ -1,0 +1,13 @@
+sku,name,category,spec_1,spec_2,price_inr,in_stock,description
+L101,NovaBook Air 13,laptop,8GB RAM,256GB SSD,42000,1,Lightweight laptop for email and browsing
+L102,NovaBook Pro 15,laptop,16GB RAM,512GB SSD,68000,1,Programming laptop with 16GB memory
+L103,NovaBook Studio,laptop,32GB RAM,1TB SSD,112000,0,High-performance creator laptop
+M201,ClearView 24,monitor,24 inch,1080p,9500,1,Budget office monitor
+M202,ClearView 27Q,monitor,27 inch,1440p,19500,1,Sharp QHD display for coding
+M203,ClearView 32U,monitor,32 inch,4K,36500,0,Large 4K display
+H301,QuietSound Lite,headset,wired,noise isolating,1800,1,Wired headset with passive noise isolation
+H302,QuietSound Pro,headset,wireless,active noise cancelling,7900,1,Wireless ANC headset
+K401,TypeFast Basic,keyboard,wired,membrane,900,1,Entry-level wired keyboard
+K402,TypeFast Mechanical,keyboard,wired,mechanical,3900,1,Mechanical keyboard for typing
+L104,NovaBook Flex 14,laptop,16GB RAM,512GB SSD,72000,1,Convertible touchscreen laptop
+M204,ClearView 27F,monitor,27 inch,1080p,12500,1,Affordable large monitor

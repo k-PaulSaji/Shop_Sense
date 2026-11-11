@@ -1,0 +1,7 @@
+{"question": "Suggest an in-stock laptop under INR 70000 with at least 16GB RAM", "expected": "L102"}
+{"question": "Show a 27-inch monitor below INR 15000", "expected": "M204"}
+{"question": "Can I buy the 32-inch 4K monitor now?", "expected": "No: M203 out of stock"}
+{"question": "What is the return policy for an opened headset?", "expected": "Not returnable unless defective"}
+{"question": "Which laptop has 32GB RAM and is in stock?", "expected": "None"}
+{"question": "Recommend a mechanical keyboard below INR 3000", "expected": "None"}
+{"question": "Is a 5 percent student discount available for monitors?", "expected": "No"}

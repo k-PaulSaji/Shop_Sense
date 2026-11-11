@@ -1,0 +1,122 @@
+[
+  {
+    "question": "Suggest an in-stock laptop under INR 70000 with at least 16GB RAM",
+    "expected": "L102",
+    "actual": "Matching product:\n\n**NovaBook Pro 15 (L102)** — ₹68,000; In stock. Specifications: 16GB RAM, 512GB SSD.",
+    "sources": [
+      "Catalog source: G2_catalog.csv — SKU L102"
+    ],
+    "passed": true
+  },
+  {
+    "question": "Show a 27-inch monitor below INR 15000",
+    "expected": "M204",
+    "actual": "Matching product:\n\n**ClearView 27F (M204)** — ₹12,500; In stock. Specifications: 27 inch, 1080p.",
+    "sources": [
+      "Catalog source: G2_catalog.csv — SKU M204"
+    ],
+    "passed": true
+  },
+  {
+    "question": "Can I buy the 32-inch 4K monitor now?",
+    "expected": "No: M203 out of stock",
+    "actual": "ClearView 32U (M203) is currently out of stock and cannot be ordered immediately. Listed price: ₹36,500.",
+    "sources": [
+      "Catalog source: G2_catalog.csv — SKU M203"
+    ],
+    "passed": true
+  },
+  {
+    "question": "What is the return policy for an opened headset?",
+    "expected": "Not returnable unless defective",
+    "actual": "Opened headsets cannot be returned unless they are defective.",
+    "sources": [
+      "Policy source: G2_store_policy.pdf, page 1\nRetrieved text: Acme Electronics Store Policies (Synthetic) Returns Unopened accessories may be returned within 7 calendar days of delivery. Opened headsets cannot be returned unless defective. Laptop warranty All laptops include a 12-month limited warranty for manufacturing defects. Accidental damage is excluded. Monitor warranty Monitors include a 24-month limited warranty. Dead pixel claims require inspection. Delivery Orders above INR 5000 qualify for free standard delivery in supported Indian PIN codes. Standard delivery estimates are 3 to 7 working days. Discounts A 5 percent student discount applies to eligible laptops only, after student ID verification. The discount cannot be combined with other coupons. Stock Only catalog rows with in_stock=1 are available for immediate"
+    ],
+    "passed": true
+  },
+  {
+    "question": "Which laptop has 32GB RAM and is in stock?",
+    "expected": "None",
+    "actual": "No matching product. No catalog item satisfies all the stated hard constraints; I will not relax them.",
+    "sources": [],
+    "passed": true
+  },
+  {
+    "question": "Recommend a mechanical keyboard below INR 3000",
+    "expected": "None",
+    "actual": "No matching product. No catalog item satisfies all the stated hard constraints; I will not relax them.",
+    "sources": [],
+    "passed": true
+  },
+  {
+    "question": "Is a 5 percent student discount available for monitors?",
+    "expected": "No",
+    "actual": "No. The 5% student discount applies to eligible laptops only after student ID verification; it does not apply to monitors.",
+    "sources": [
+      "Policy source: G2_store_policy.pdf, page 1\nRetrieved text: Acme Electronics Store Policies (Synthetic) Returns Unopened accessories may be returned within 7 calendar days of delivery. Opened headsets cannot be returned unless defective. Laptop warranty All laptops include a 12-month limited warranty for manufacturing defects. Accidental damage is excluded. Monitor warranty Monitors include a 24-month limited warranty. Dead pixel claims require inspection. Delivery Orders above INR 5000 qualify for free standard delivery in supported Indian PIN codes. Standard delivery estimates are 3 to 7 working days. Discounts A 5 percent student discount applies to eligible laptops only, after student ID verification. The discount cannot be combined with other coupons. Stock Only catalog rows with in_stock=1 are available for immediate"
+    ],
+    "passed": true
+  },
+  {
+    "question": "Find an in-stock laptop under INR 70000 with at least 16GB RAM",
+    "expected": "L102",
+    "actual": "Matching product:\n\n**NovaBook Pro 15 (L102)** — ₹68,000; In stock. Specifications: 16GB RAM, 512GB SSD.",
+    "sources": [
+      "Catalog source: G2_catalog.csv — SKU L102"
+    ],
+    "passed": true
+  },
+  {
+    "question": "Show a 27-inch monitor below INR 15000",
+    "expected": "M204",
+    "actual": "Matching product:\n\n**ClearView 27F (M204)** — ₹12,500; In stock. Specifications: 27 inch, 1080p.",
+    "sources": [
+      "Catalog source: G2_catalog.csv — SKU M204"
+    ],
+    "passed": true
+  },
+  {
+    "question": "Can I buy the 32-inch 4K monitor now?",
+    "expected": "M203",
+    "actual": "ClearView 32U (M203) is currently out of stock and cannot be ordered immediately. Listed price: ₹36,500.",
+    "sources": [
+      "Catalog source: G2_catalog.csv — SKU M203"
+    ],
+    "passed": true
+  },
+  {
+    "question": "What warranty comes with a laptop?",
+    "expected": "12-month",
+    "actual": "Laptops include a 12-month limited warranty for manufacturing defects. Accidental damage is excluded.",
+    "sources": [
+      "Policy source: G2_store_policy.pdf, page 1\nRetrieved text: Acme Electronics Store Policies (Synthetic) Returns Unopened accessories may be returned within 7 calendar days of delivery. Opened headsets cannot be returned unless defective. Laptop warranty All laptops include a 12-month limited warranty for manufacturing defects. Accidental damage is excluded. Monitor warranty Monitors include a 24-month limited warranty. Dead pixel claims require inspection. Delivery Orders above INR 5000 qualify for free standard delivery in supported Indian PIN codes. Standard delivery estimates are 3 to 7 working days. Discounts A 5 percent student discount applies to eligible laptops only, after student ID verification. The discount cannot be combined with other coupons. Stock Only catalog rows with in_stock=1 are available for immediate"
+    ],
+    "passed": true
+  },
+  {
+    "question": "Is accidental damage covered by laptop warranty?",
+    "expected": "excluded",
+    "actual": "Laptops include a 12-month limited warranty for manufacturing defects. Accidental damage is excluded.",
+    "sources": [
+      "Policy source: G2_store_policy.pdf, page 1\nRetrieved text: Acme Electronics Store Policies (Synthetic) Returns Unopened accessories may be returned within 7 calendar days of delivery. Opened headsets cannot be returned unless defective. Laptop warranty All laptops include a 12-month limited warranty for manufacturing defects. Accidental damage is excluded. Monitor warranty Monitors include a 24-month limited warranty. Dead pixel claims require inspection. Delivery Orders above INR 5000 qualify for free standard delivery in supported Indian PIN codes. Standard delivery estimates are 3 to 7 working days. Discounts A 5 percent student discount applies to eligible laptops only, after student ID verification. The discount cannot be combined with other coupons. Stock Only catalog rows with in_stock=1 are available for immediate"
+    ],
+    "passed": true
+  },
+  {
+    "question": "Find a mechanical keyboard below INR 4000",
+    "expected": "K402",
+    "actual": "Matching product:\n\n**TypeFast Mechanical (K402)** — ₹3,900; In stock. Specifications: wired, mechanical.",
+    "sources": [
+      "Catalog source: G2_catalog.csv — SKU K402"
+    ],
+    "passed": true
+  },
+  {
+    "question": "Find a mechanical keyboard below INR 3000",
+    "expected": "No matching product",
+    "actual": "No matching product. No catalog item satisfies all the stated hard constraints; I will not relax them.",
+    "sources": [],
+    "passed": true
+  }
+]
